@@ -32,5 +32,4 @@ int main(void) {
 
     return 0;
 }
-//4 <= in <= 6 : *
-//7 >= in
+// 바보
