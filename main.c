@@ -15,8 +15,10 @@ int main(void) {
 
         for (int j = 0; j < (arr[i] / 10); j++)printf("■");
 
-        if ((arr[i] % 10) >= 6) {
-            printf("□");
+        if ((arr[i]%10) >= 7) {
+            printf("**");
+        } else if ((arr[i]%10) >= 4) {
+            printf("*");
         }
 
         printf("\n");
@@ -30,3 +32,5 @@ int main(void) {
 
     return 0;
 }
+//4 <= in <= 6 : *
+//7 >= in
