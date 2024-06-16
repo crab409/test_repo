@@ -24,12 +24,17 @@ int main(void) {
         printf("\n");
     }
 
-    if (arr[7] >= 99) {
+    if (arr[7] >= 126) {
         printf("님 당뇨");
+        
+    } else if (arr[7] >= 99){
+        printf("당뇨 위험");
+        
     } else {
         printf("님 당뇨 아님,");
+        
     }
 
     return 0;
 }
-// 바보
+//바보
